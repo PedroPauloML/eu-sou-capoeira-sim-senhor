@@ -1,0 +1,82 @@
+div.article-header {
+  background-image: url('../imagens/bateria.jpg');
+}
+
+div.photo-person-music {
+  position: relative;
+  width: 380px;
+  float: left;
+  z-index: -1;
+}
+
+div.photo-person-music img {
+  width: 300px;
+}
+div.photo-person-music div.photo-person-music-caption {
+  position: absolute;
+  background-color: rgba(0,0,0,.5);
+  font-size: 20pt;
+  color: white;
+  width: max-content;
+  padding: 10px 20px;
+  bottom: 30px;
+  left: 30px;
+}
+div.photo-person-music div.photo-person-music-caption p {
+  margin: 0;
+}
+div.photo-person-music div.photo-person-music-caption p.nickname {
+  font-size: 14pt;
+}
+
+div.photo-person-music#mestre-suassuna {
+  shape-outside: polygon(
+    0 0,
+    310px 0,
+    310px 275px,
+    375px 275px,
+    375px 383px,
+    310px 383px,
+    310px 404px,
+    0 404px,
+    0 0
+  )
+}
+
+div.photo-person-music#boa-voz {
+  shape-outside: polygon(
+    0 0,
+    310px 0,
+    310px 404px,
+    0 404px,
+    0 0
+  )
+}
+
+div.photo-person-music#toni-vargas {
+  shape-outside: polygon(
+    0 0,
+    310px 0,
+    310px 250px,
+    350px 250px,
+    350px 383px,
+    310px 383px,
+    310px 404px,
+    0 404px,
+    0 0
+  )
+}
+
+div.photo-person-music#barrao {
+  shape-outside: polygon(
+    0 0,
+    310px 0,
+    310px 275px,
+    350px 275px,
+    350px 383px,
+    310px 383px,
+    310px 404px,
+    0 404px,
+    0 0
+  )
+}

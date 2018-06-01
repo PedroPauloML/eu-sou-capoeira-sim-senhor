@@ -1,0 +1,26 @@
+div.article-header {
+  background-image: url('../imagens/capoeira-jogo.jpg');
+}
+
+.capoeira-groups {
+  width: 100%;
+}
+.capoeira-groups img {
+  max-height: 170px;
+}
+.capoeira-groups,
+.capoeira-groups p {
+  text-align: center;
+}
+.capoeira-groups p {
+  font-weight: bold;
+  padding: 10px 0;
+  margin-top: 10px;
+  border-top: 3px solid #ddd;
+  border-bottom: 3px solid #ddd;
+  border-radius: 5px;
+}
+
+.banner {
+  box-shadow: 3px 3px 10px grey;
+}
